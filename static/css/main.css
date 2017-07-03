@@ -1,0 +1,39 @@
+.menu-buttons {
+    align: center;
+}
+.btn.btn-default.btn-lg {
+    width: 30%;
+    height: 130px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.btn-first {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #2aabd2;
+}
+.btn-first:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #2aabd2;
+}
+.btn-second {
+    color: #fff;
+    background-color: #fc9c14;
+    border-color: #d58512;
+}
+.btn-second:hover {
+    color: #fff;
+    background-color: #ef9009;
+    border-color: #d58512;
+}
+.btn-third {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #398439;
+}
+.btn-third:hover {
+    color: #fff;
+    background-color: #419641;
+    border-color: #398439;
+}
