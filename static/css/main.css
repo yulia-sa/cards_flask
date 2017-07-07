@@ -44,3 +44,6 @@
     color: #fff;
     background-color: #419641;
 }
+.table-hover > tbody > tr:hover {
+  background-color: #ededed;
+}
