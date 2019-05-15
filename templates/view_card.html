@@ -1,6 +1,6 @@
 {% macro render_field(field) %}
   <dt>{{ field.label }}
-  <dd>{{ field(class_="form-control", **kwargs)|safe }}
+  <dd>{{ field(class_="form-control", readonly=true, **kwargs)|safe }}
   {% if field.errors %}
     <ul class=errors>
     {% for error in field.errors %}
@@ -26,14 +26,14 @@
 
   </head>
   <body>
-    {% include "navigation_2_items.html" %}
+    {% include "navigation_3_items.html" %}
 
     <div class="container">
         <div class="page-header">
             <h1>{{ title }}</h1>
         </div>
         
-        <form class="form-horizontal" method="POST" action="">
+        <form class="form-horizontal" method="POST">
         <dl>
           <div class="form-group">
             <div class="col-xs-10">
@@ -58,8 +58,7 @@
           </dl>
           <div class="form-group">
             <div class="col-xs-10 buttons-panel">
-              <a class="btn btn-default" href="/">Отмена</a>
-              <button type="submit" class="btn btn-primary">Сохранить</button>
+              <a class="btn btn-primary" href="{{ url_for('all_cards') }}">В список всех карточек</a>
             </div>
           </div>
         </form> 
