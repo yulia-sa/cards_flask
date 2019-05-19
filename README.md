@@ -28,6 +28,21 @@ $ pip install -r requirements.txt
 
 ```
 
+При первом запуске:
+```#!bash
+
+python3 db.py
+
+```
+
+Опционально: заполнить БД тестовыми карточками:
+```#!bash
+
+python3 add_test_cards.py
+
+```
+
+Запуск сервера:
 ```#!bash
 
 $ python3 server.py
