@@ -22,6 +22,7 @@
 
 # Запуск
 
+Установка необходимых пакетов:
 ```#!bash
 
 $ pip install -r requirements.txt
